@@ -1,10 +1,8 @@
 {{ partial "header.html" . }}
-	<main>
-		{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
-		{{ range $paginator.Pages }}
-			{{ partial "summary.html" . }}
-		{{ end }}
-		{{ partial "pagination.html" . }}
+	<main role="main">
+        <section class="section-white"></section>
+        <section class="section-white"></section>
+        <section class="section-gray-pattern"></section>
+		<section class="section-white"></section>
 	</main>
-{{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}
