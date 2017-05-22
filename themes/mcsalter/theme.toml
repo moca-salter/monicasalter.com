@@ -1,0 +1,9 @@
+name = "M. C. Salter"
+license = "MIT"
+description = "Custom theme for monicasalter.com"
+tags = ["blog", "bio", "mcsalter"]
+features = ["blog"]
+min_version = 0.19
+
+[author]
+  name = "Monica Salter"

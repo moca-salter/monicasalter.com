@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Monica Salter"
+theme = "mcsalter"
+
+[Params]
+    Author = "Monica Salter"
