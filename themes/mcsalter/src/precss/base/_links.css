@@ -1,0 +1,6 @@
+a {
+  color: $navy; 
+  &:hover {
+    color: $navy-dark;
+  }
+}

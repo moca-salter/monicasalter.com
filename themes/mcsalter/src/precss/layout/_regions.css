@@ -1,0 +1,14 @@
+.region {
+  background-color: #fff;
+  padding: 35px 0;
+}
+
+.region--pattern {
+    background-color: lightgray;   
+}
+
+@media (min-width: $break-md) {
+    .region {
+        padding: 55px 0;
+    }
+}

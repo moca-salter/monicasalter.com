@@ -1,0 +1,47 @@
+.main-nav {
+    @mixin float-clear;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav_item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: $third;
+
+    a {
+        font-weight: $font-2-semibold;
+        font-family: $font-2;
+        font-size: 2.2rem;
+        text-decoration: none;
+        &:hover {
+        }
+    }
+}
+
+@media (min-width: 400px) {
+
+    .main-nav {
+        text-align: right;
+    }
+
+    .main-nav_item { 
+        float: none;
+        width: auto;
+        display: inline-block;
+
+        a {
+            display: inline-block;
+            padding: 10px 25px 10px 0;
+            
+        }
+
+        &:last-of-type a {
+            padding-right: 0;
+        }
+
+    }
+
+}

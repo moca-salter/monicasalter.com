@@ -7,18 +7,27 @@
 	<title>{{ .Title }}</title>
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans:600,800" rel="stylesheet">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
-	{{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
 	{{ .Hugo.Generator }}
 </head>
 <body>
-	<header role="banner">
-		<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-		<nav>
-			<ul>
-				{{ range .Site.Menus.main }}
-				<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-				{{ end }}
-			</ul>
-		</nav>
+	<header role="banner" class="header">
+		<div class="container container--lg">
+			<div class="header_inner">
+				<div class="header_item header_item--logo">
+					<a href="{{ .Site.BaseURL }}">
+						<span class="visually-hidden">{{ .Site.Title }}</span>
+						<img src="{{ .Site.BaseURL }}images/monica-salter.svg" alt="monica salter logo" >
+					</a>
+				</div>
+				<nav class="header_item header_item--nav">
+					<ul class="main-nav">
+						<li class="main-nav_item"><a href="#">Work</a></li>
+						<li class="main-nav_item"><a href="#">About</a></li>
+						<li class="main-nav_item"><a href="#">Blog</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 	</header>

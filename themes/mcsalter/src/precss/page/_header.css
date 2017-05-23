@@ -1,0 +1,28 @@
+.header {
+    background: #fff;
+    box-shadow: $shadow-mega;
+    padding: 50px 0 40px;
+}
+
+.header_item--logo {
+    img {
+        display: block;
+    }
+}
+
+@media (min-width: $break-md) {
+
+    .header {
+        padding: 50px 0 40px;
+    }
+
+    .header_inner {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .header_item {
+        flex: 1 1 auto;
+    }
+
+}

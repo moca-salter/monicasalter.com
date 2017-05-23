@@ -1,0 +1,21 @@
+/* Colors */
+$navy:      #1c79c0;
+$navy-dark: #11507F;
+$blue:      #0389ed;
+$azure:     #0dd3ff;
+
+$shadow-mega: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 1px 10px 0 rgba(0, 0, 0, 0.09), 0 1px 10px 0 rgba(0, 0, 0, 0.09);
+
+/* Sizes */
+$gutter: 20px;
+
+$third: 33.333%;
+$max-width: 1000px;
+$break-md: 600px;
+
+/* Fonts */
+$font-main: 'Open Sans', sans-serif;
+$font-2: 'Work Sans', sans-serif;
+$font-2-semibold: 600;
+$font-2-extrabold: 800;
