@@ -2,6 +2,7 @@
     @mixin float-clear;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .main-nav_item {
@@ -10,35 +11,55 @@
     padding: 0;
     float: left;
     width: $third;
-
+    
     a {
+        position: relative;
         font-weight: $font-2-semibold;
         font-family: $font-2;
-        font-size: 2.2rem;
+        font-size: 1.9rem;
         text-decoration: none;
-        &:hover {
+        display: block;
+        padding: 10px;
+        &:after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 3px;
+            left: 50%;
+            bottom: 6px; /* for <a> padding */
+            position: absolute;
+            background: $blue;
+            transition: width 300ms ease, left 300ms ease;
+            width: 0;
+        }
+        &:hover:after {
+            width: 100%; 
+            left: 0; 
         }
     }
 }
 
-@media (min-width: 400px) {
+@media (min-width: $break-md) {
 
     .main-nav {
         text-align: right;
+        width: auto;
     }
 
     .main-nav_item { 
         float: none;
         width: auto;
         display: inline-block;
+        padding-right: 25px;
 
         a {
             display: inline-block;
-            padding: 10px 25px 10px 0;
-            
+            font-size: 2.2rem;
+            padding: 10px 0;
         }
 
-        &:last-of-type a {
+        &:last-of-type {
             padding-right: 0;
         }
 

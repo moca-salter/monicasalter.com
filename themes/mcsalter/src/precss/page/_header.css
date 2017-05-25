@@ -1,13 +1,19 @@
 .header {
     background: #fff;
     box-shadow: $shadow-mega;
-    padding: 50px 0 40px;
+    padding: 40px 0 20px;
 }
 
 .header_item--logo {
+    text-align: center;
     img {
-        display: block;
+        max-width: 70%;
     }
+}
+
+.header_item--nav {
+    max-width: 400px;
+    margin: 10px auto 0;
 }
 
 @media (min-width: $break-md) {
@@ -23,6 +29,18 @@
 
     .header_item {
         flex: 1 1 auto;
+    }
+
+    .header_item--logo {
+        img {
+            display: block;
+            max-width: none;
+        }
+    }
+
+    .header_item--nav {
+        max-width: none;
+        margin-top: 0;
     }
 
 }

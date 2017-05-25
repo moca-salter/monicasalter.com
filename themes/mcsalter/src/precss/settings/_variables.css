@@ -1,8 +1,10 @@
 /* Colors */
-$navy:      #1c79c0;
-$navy-dark: #11507F;
-$blue:      #0389ed;
-$azure:     #0dd3ff;
+$navy:          #1c79c0;
+$navy-dark:     #11507F;
+$blue:          #0389ed;
+$azure:         #0dd3ff;
+$gray:          #cdcdcd;
+$blue-gradient: linear-gradient(to right, $navy-dark, $blue 48%, $azure);
 
 $shadow-mega: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 $shadow-lg: 0 1px 10px 0 rgba(0, 0, 0, 0.09), 0 1px 10px 0 rgba(0, 0, 0, 0.09);
@@ -12,6 +14,7 @@ $gutter: 20px;
 
 $third: 33.333%;
 $max-width: 1000px;
+$break-sm: 480px;
 $break-md: 600px;
 
 /* Fonts */

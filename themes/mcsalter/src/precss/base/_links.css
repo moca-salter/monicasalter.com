@@ -1,5 +1,6 @@
 a {
-  color: $navy; 
+  color: $navy;
+  transition: color 300ms;
   &:hover {
     color: $navy-dark;
   }
