@@ -1,3 +1,21 @@
 .color-card {
+    width: 100%;
+    box-shadow: $shadow-lg;
+    background: #fff;
+}
+
+.color-card_title {
+
+}
+
+.color-card_title-text {
     
+}
+
+.color-card_text {
+
+}
+
+.color-card_actions {
+
 }

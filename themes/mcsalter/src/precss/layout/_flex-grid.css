@@ -1,0 +1,34 @@
+/* 
+ * Based on Philip Walton's solved by flexbox https://philipwalton.github.io/solved-by-flexbox/demos/grids/
+ */
+
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-grid-cell {
+    flex: 1;
+    display: flex;
+}
+
+.flex-grid--gutters {
+    margin: -25px 0 25px -25px;
+    > .flex-grid-cell {
+        padding: 25px 0 0 25px;
+    }
+}
+
+.md-flex-grid--fit {
+    > .flex-grid-cell {
+        flex: 1 1 100%;
+    }
+}
+
+@media (min-width: $break-lg) {
+    .md-flex-grid--fit {
+        > .flex-grid-cell {
+            flex: 1;
+        }
+    }
+}

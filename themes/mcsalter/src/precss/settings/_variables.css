@@ -14,8 +14,8 @@ $gutter: 20px;
 
 $third: 33.333%;
 $max-width: 1000px;
-$break-sm: 480px;
 $break-md: 600px;
+$break-lg: 860px;
 
 /* Fonts */
 $font-main: 'Open Sans', sans-serif;
