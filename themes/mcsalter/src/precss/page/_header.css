@@ -1,7 +1,7 @@
 .header {
     background: #fff;
     box-shadow: $shadow-mega;
-    padding: 40px 0 20px;
+    padding: 4rem 0 2rem;
     position: relative;
     z-index: 1;
 }
@@ -14,14 +14,14 @@
 }
 
 .header_item--nav {
-    max-width: 400px;
-    margin: 10px auto 0;
+    max-width: 40rem;
+    margin: 1rem auto 0;
 }
 
 @media (min-width: $break-md) {
 
     .header {
-        padding: 50px 0 40px;
+        padding: 5rem 0 4rem;
     }
 
     .header_inner {

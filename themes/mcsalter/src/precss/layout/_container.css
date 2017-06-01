@@ -8,11 +8,11 @@
 }
 
 .container--lg {
-    max-width: 1200px;
+    max-width: 120rem;
 }
 
 .container--sm {
-    max-width: 800px;
+    max-width: 80rem;
 }
 
 /* @media (min-width: 400px) {

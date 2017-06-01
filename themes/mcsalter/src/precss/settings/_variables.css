@@ -6,16 +6,16 @@ $azure:         #0dd3ff;
 $gray:          #cdcdcd;
 $blue-gradient: linear-gradient(to right, $navy-dark, $blue 48%, $azure);
 
-$shadow-mega: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-$shadow-lg: 0 1px 10px 0 rgba(0, 0, 0, 0.09), 0 1px 10px 0 rgba(0, 0, 0, 0.09);
+$shadow-mega: 0 0 2rem 0 rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.09), 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.09);
 
 /* Sizes */
-$gutter: 20px;
+$gutter: 2rem;
 
 $third: 33.333%;
-$max-width: 1000px;
-$break-md: 600px;
-$break-lg: 860px;
+$max-width: 100rem;
+$break-md: 38em;
+$break-lg: 54rem;
 
 /* Fonts */
 $font-main: 'Open Sans', sans-serif;
