@@ -13,18 +13,18 @@
     "watch:css": "watch 'npm run build:css' src/precss",
     "watch:js": "watch 'npm run build:js' src/js",
     "watch:images": "watch 'npm run build:images' src/images",
-    "watch": "npm run clean && parallelshell 'npm run watch:css' 'npm run watch:js' 'npm run watch:images'"
+    "watch": "npm run clean && concurrently \"npm run watch:css\" \"npm run watch:js\" \"npm run watch:images\""
   },
   "author": "Monica Salter",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.3.4",
     "clean-css": "^3.4.10",
+    "concurrently": "^3.4.0",
     "css-mqpacker": "^4.0.1",
     "csswring": "^4.2.2",
     "imagemin": "^4.0.0",
     "imagemin-cli": "^2.1.0",
-    "parallelshell": "^2.0.0",
     "postcss": "^5.0.19",
     "postcss-calc": "^5.2.1",
     "postcss-cli": "^2.5.1",
