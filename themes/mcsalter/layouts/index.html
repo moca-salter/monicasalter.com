@@ -3,17 +3,19 @@
         <section class="region"></section>
         <section class="region">
             <div class="container">
+                <h2 class="main-heading">Featured Work</h2>
                 <div class="flex-grid flex-grid--gutters md-flex-grid--fit">
                     <div class="flex-grid-cell">
                         <div class="color-card">
                             <div class="color-card_title">
                                 <h2 class="color-card_title-text">Cell 1</h2>
                             </div>
-                            <div class="color-card_text"></div>
+                            <div class="color-card_text">
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                            </div>
                             <div class="color-card_actions">
                                 <a href="">buttons</a>
                             </div>
-                            
                         </div>
                     </div>
                     <div class="flex-grid-cell">
@@ -25,7 +27,6 @@
                             <div class="color-card_actions">
                                 <a href="">buttons</a>
                             </div>
-                            
                         </div>
                     </div>
                     <div class="flex-grid-cell">
@@ -37,13 +38,27 @@
                             <div class="color-card_actions">
                                 <a href="">buttons</a>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="region region--pattern"></section>
-		<section class="region"></section>
+        <section class="region region--pattern">
+            <div class="container container--sm">
+                <h2 class="main-heading">About</h2>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                <h3>Contact</h3>
+                <p>Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis.</p>
+                <div class="margin-top-lg text-center">
+                    <img src="images/profile-pic.png" alt="Photo of Monica">
+                </div>
+            </div>
+        </section>
+		<section class="region">
+            <div class="container container--sm">
+                <h2 class="main-heading">Blog</h2>
+            </div>
+        </section>
 	</main>
 {{ partial "footer.html" . }}

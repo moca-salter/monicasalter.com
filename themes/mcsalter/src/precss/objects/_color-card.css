@@ -5,18 +5,32 @@
 }
 
 .color-card_title {
-
+    background: $blue-gradient;
+    padding: 1.4rem $cell-h-padding;
+    display: flex;
+    align-items: flex-end;
+    height: 6.8rem;
 }
 
 .color-card_title-text {
-    
+    margin: 0;
+    flex: 1 1 auto;
+    font-weight: 400;
+    font-family: $font-main;
+    font-size: 2.4rem;
+    color: #fff;
 }
 
 .color-card_text {
-
+    padding: 3rem $cell-h-padding;
+    height: 10rem;
+    p {
+        margin: 0;
+    }
 }
 
 .color-card_actions {
-
+    border-top: 0.1rem solid $gray-light;
+    padding: 1.6rem $cell-h-padding;
 }
 

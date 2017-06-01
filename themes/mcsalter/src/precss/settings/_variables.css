@@ -2,15 +2,19 @@
 $navy:          #1c79c0;
 $navy-dark:     #11507F;
 $blue:          #0389ed;
+$soft-sky:      #08b0f6;
 $azure:         #0dd3ff;
 $gray:          #cdcdcd;
-$blue-gradient: linear-gradient(to right, $navy-dark, $blue 48%, $azure);
+$gray-light:    #e0e0e0;
+
+$blue-gradient: linear-gradient(to right, $navy, $blue 48%, $soft-sky);
 
 $shadow-mega: 0 0 2rem 0 rgba(0, 0, 0, 0.1);
 $shadow-lg: 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.09), 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.09);
 
 /* Sizes */
 $gutter: 2rem;
+$cell-h-padding: 2rem;
 
 $third: 33.333%;
 $max-width: 100rem;
@@ -22,3 +26,5 @@ $font-main: 'Open Sans', sans-serif;
 $font-2: 'Work Sans', sans-serif;
 $font-2-semibold: 600;
 $font-2-extrabold: 800;
+
+
