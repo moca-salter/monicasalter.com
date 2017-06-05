@@ -1,6 +1,10 @@
 .region {
   background-color: #fff;
-  padding: 3.5rem 0;
+  padding: 7rem 0;
+}
+
+.region--more-space {
+    padding: 7rem 0 15rem;
 }
 
 .region--pattern {
@@ -9,6 +13,10 @@
 
 @media (min-width: $break-md) {
     .region {
-        padding: 5.5rem 0;
+        padding: 12.5rem 0;
+    }
+
+    .region--more-space {
+        padding: 12.5rem 0 17rem;
     }
 }

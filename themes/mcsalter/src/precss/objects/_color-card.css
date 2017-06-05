@@ -5,11 +5,11 @@
 }
 
 .color-card_title {
-    background: $blue-gradient;
+    background: $blue-gradient-soft;
     padding: 1.4rem $cell-h-padding;
     display: flex;
     align-items: flex-end;
-    height: 6.8rem;
+    height: 4.2rem;
 }
 
 .color-card_title-text {

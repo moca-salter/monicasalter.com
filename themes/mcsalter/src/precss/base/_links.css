@@ -1,7 +1,8 @@
 a {
   color: $navy;
-  transition: color 300ms;
-  &:hover {
+  transition: color 150ms;
+  @mixin link-states {
     color: $navy-dark;
   }
 }
+

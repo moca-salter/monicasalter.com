@@ -7,8 +7,8 @@ $azure:         #0dd3ff;
 $gray:          #cdcdcd;
 $gray-light:    #e0e0e0;
 
-$blue-gradient: linear-gradient(to right, $navy, $blue 48%, $soft-sky);
-
+$blue-gradient: linear-gradient(to right, $navy, $blue 48%, $azure);
+$blue-gradient-soft: linear-gradient(to right, $navy, $blue 48%, $soft-sky);
 $shadow-mega: 0 0 2rem 0 rgba(0, 0, 0, 0.1);
 $shadow-lg: 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.09), 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.09);
 
@@ -16,7 +16,12 @@ $shadow-lg: 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.09), 0 0.1rem 1rem 0 rgba(0, 0, 0, 0
 $gutter: 2rem;
 $cell-h-padding: 2rem;
 
+$container-max: 120rem;
+$container-max-sm: 80rem;
+
+$heading-space: 4rem;
 $third: 33.333%;
+
 $max-width: 100rem;
 $break-md: 38em;
 $break-lg: 54rem;
@@ -24,6 +29,8 @@ $break-lg: 54rem;
 /* Fonts */
 $font-main: 'Open Sans', sans-serif;
 $font-2: 'Work Sans', sans-serif;
+$font-main-normal: 400;
+$font-main-semibold: 600;
 $font-2-semibold: 600;
 $font-2-extrabold: 800;
 

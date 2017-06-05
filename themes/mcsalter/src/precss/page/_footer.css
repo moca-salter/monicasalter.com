@@ -1,0 +1,15 @@
+.footer {
+    background: $blue-gradient;
+    padding: 7rem 0 9rem;
+    text-align: center;
+    color: #fff;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        @mixin link-states {
+            color: #fff;
+            text-decoration: underline;
+        }
+    }
+}

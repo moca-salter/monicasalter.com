@@ -25,3 +25,10 @@
    list-style: none;
   }
 }
+
+/* links */
+@define-mixin link-states {
+  &:hover, &:focus {
+    @mixin-content;
+  }
+}

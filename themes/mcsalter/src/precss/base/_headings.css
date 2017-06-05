@@ -10,7 +10,8 @@ h6 { font-size: $ts-h6; }
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   color: #000;
-  font-family: $font-2; 
+  font-family: $font-2;
+  margin: $heading-space auto;
   a {
     text-decoration: none;
   }
@@ -45,4 +46,36 @@ h3, h4, h5, h6 {
   font-size: 4.2rem;
   font-weight: $font-2-extrabold;
   text-align: center;
+}
+
+.divider-crane {
+
+  position: relative;
+  text-align: center;
+  margin: $heading-space auto;
+
+  img {
+    background: #fff;
+    padding: 0 32px;
+    position: relative;
+    z-index: 1;
+  }
+
+  &:after {
+    @mixin pseudo-absolute;
+    @mixin centerer;
+    width: 100%;
+    height: 1px;
+    background: $gray;
+    border: none;
+  }
+
+  /* if it's in a small container, make it wider */
+  /* .container--sm & {
+    @media (min-width: $break-md) {
+      width: 110%;
+      left: -5%;
+    }
+  } */
+
 }
