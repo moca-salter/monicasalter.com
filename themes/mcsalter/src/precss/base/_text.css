@@ -1,3 +1,7 @@
 strong {
     font-weight: $font-main-semibold;
 }
+
+.p-extra-space {
+    margin: 5rem auto;
+}

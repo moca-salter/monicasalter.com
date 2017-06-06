@@ -24,6 +24,8 @@
 .color-card_text {
     padding: 3rem $cell-h-padding;
     height: 10rem;
+    font-size: 1.4rem;
+    line-height: $line-height-sm;
     p {
         margin: 0;
     }

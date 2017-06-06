@@ -1,1 +1,1 @@
-!function(i){"use strict";console.log("hi")}(this.jQuery);
+!function(t){"use strict";t(".js-button-ripple").on("click",function(t){var e=t.target,s=e.getBoundingClientRect(),l=e.querySelector(".ripple");l||(l=document.createElement("span"),l.className="ripple",l.style.height=l.style.width=Math.max(s.width,s.height)+"px",e.appendChild(l)),l.classList.remove("show");var o=t.pageY-s.top-l.offsetHeight/2-document.body.scrollTop,i=t.pageX-s.left-l.offsetWidth/2-document.body.scrollLeft;return l.style.top=o+"px",l.style.left=i+"px",l.classList.add("show"),!1})}(this.jQuery);
