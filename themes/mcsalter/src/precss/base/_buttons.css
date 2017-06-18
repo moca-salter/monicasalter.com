@@ -9,7 +9,10 @@
     cursor: pointer;
     overflow: hidden;
     user-select: none;
-    border-radius: 2px;
+    /* fix inline-block space */
+    position: relative;
+    margin-bottom: -4px;
+    margin-right: -4px;
 }
 
 .ripple {
@@ -20,7 +23,7 @@
     pointer-events: none;
 }
 .ripple.show {
-    animation: ripple 0.4s ease-in;
+    animation: ripple 0.3s ease-in;
 }
 
 @keyframes ripple {

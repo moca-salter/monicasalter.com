@@ -2,8 +2,9 @@
 @import "mixins/**.css";
 @import "defaults/**.css";
 @import "base/**.css";
-@import "layout/**.css";
 @import "page/**.css";
+@import "layout/**.css";
+@import "grid/**.css";
 @import "objects/**.css";
 @import "nav/**.css";
 @import "utility/**.css";

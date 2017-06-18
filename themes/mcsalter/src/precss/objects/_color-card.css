@@ -32,7 +32,7 @@
 }
 
 .color-card_actions {
-    border-top: 0.1rem solid $gray-light;
+    border-top: 0.1rem solid $feather;
     padding: 1.6rem $cell-h-padding;
 }
 

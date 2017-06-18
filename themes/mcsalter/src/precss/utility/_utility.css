@@ -1,11 +1,11 @@
-.text-center {
-    text-align: center;
-}
-
 .margin-top-lg {
     margin-top: 7rem;
 }
 
 .visually-hidden, %visually-hidden {
     @mixin visually-hidden;
+}
+
+.child-margin-clear {
+    @mixin child-margin-clear;
 }

@@ -1,0 +1,19 @@
+.lg-flex-grid--fit {
+    > .flex-grid-cell {
+        flex: 1 1 100%;
+    }
+}
+
+@media (min-width: $break-lg) {
+    .lg-flex-grid--fit {
+        > .flex-grid-cell {
+            flex: 1;
+        }
+    }
+    
+    .flex-grid {
+        > .lg-flex-cell--2x {
+            flex: 2;
+        }
+    }
+}

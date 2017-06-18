@@ -5,6 +5,10 @@
 .flex-grid {
     display: flex;
     flex-wrap: wrap;
+    margin: -2.5rem 0 2.5rem -2.5rem;
+    > .flex-grid-cell {
+        padding: 2.5rem 0 0 2.5rem;
+    }
 }
 
 .flex-grid-cell {
@@ -12,23 +16,8 @@
     display: flex;
 }
 
-.flex-grid--gutters {
-    margin: -2.5rem 0 2.5rem -2.5rem;
+.flex-grid--unequal {
     > .flex-grid-cell {
-        padding: 2.5rem 0 0 2.5rem;
-    }
-}
-
-.md-flex-grid--fit {
-    > .flex-grid-cell {
-        flex: 1 1 100%;
-    }
-}
-
-@media (min-width: $break-lg) {
-    .md-flex-grid--fit {
-        > .flex-grid-cell {
-            flex: 1;
-        }
+        display: block;
     }
 }
