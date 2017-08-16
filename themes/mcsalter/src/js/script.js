@@ -24,6 +24,7 @@
 	// Crane
 	var crane = Snap("#crane"),
 	  frontWing = crane.select("#front_wing"),
+	  frontWingImage = crane.select("#front_wing_image"),
 	  backWing = crane.select("#back_wing"),
 	  neckAndHead = crane.select("#head_and_neck"),
 	  head = crane.select("#head");
