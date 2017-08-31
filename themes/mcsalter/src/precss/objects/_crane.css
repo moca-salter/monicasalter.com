@@ -1,0 +1,53 @@
+.crane-title {
+    /* font-size: vw */
+    font-size: 6.2vw;
+    font-family: $font-main;
+    font-weight: $font-main-normal;
+    margin: 0;
+
+    @mixin mq $break-sm {
+        font-size: 3.2rem;
+    }
+
+    @mixin mq $break-md {
+        font-size: 3.6vw;
+        br {
+            display: none;
+        }
+    }
+
+    @mixin mq $break-lg {
+        font-size: 2.3rem;
+        br {
+            display: block;
+        }
+    }
+
+    @mixin mq 1200px {
+        font-size: 2.3rem;
+        br {
+            display: none;
+        }
+    }
+}
+
+.crane-wrapper {
+    text-align: center;
+
+    @mixin mq $break-lg {
+        text-align: left;
+    }
+}
+
+#crane {
+    max-width: 300px;
+
+    /* @mixin mq $break-sm {
+        max-width: 315px;
+    } */
+
+    @mixin mq $max-width {
+        max-width: none;
+    }
+
+}

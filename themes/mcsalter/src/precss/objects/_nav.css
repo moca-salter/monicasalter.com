@@ -19,15 +19,15 @@
         font-size: 1.9rem;
         text-decoration: none;
         display: block;
-        padding: 1rem;
+        padding: 10px;
         &:after {
             background: none repeat scroll 0 0 transparent;
             bottom: 0;
             content: "";
             display: block;
-            height: 0.3rem;
+            height: 3px;
             left: 50%;
-            bottom: 0.6rem; /* for <a> padding */
+            bottom: 6px; /* for <a> padding */
             position: absolute;
             background: $blue;
             transition: width 300ms ease, left 300ms ease;
@@ -51,12 +51,12 @@
         float: none;
         width: auto;
         display: inline-block;
-        padding-right: 2.5rem;
+        padding-right: 25px;
 
         a {
             display: inline-block;
             font-size: 2.2rem;
-            padding: 1rem 0;
+            padding: 10px 0;
         }
 
         &:last-of-type {

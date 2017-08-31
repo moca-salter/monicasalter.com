@@ -5,9 +5,9 @@
 .flex-grid {
     display: flex;
     flex-wrap: wrap;
-    margin: -2.5rem 0 2.5rem -2.5rem;
+    margin: -25px 0 25px -25px;
     > .flex-grid-cell {
-        padding: 2.5rem 0 0 2.5rem;
+        padding: 25px 0 0 25px;
     }
 }
 

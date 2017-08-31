@@ -10,22 +10,30 @@ $feather:       #e0e0e0;
 
 $blue-gradient: linear-gradient(to right, $navy, $blue 48%, $azure);
 $blue-gradient-soft: linear-gradient(to right, $navy, $blue 48%, $sky);
-$shadow-mega: 0 0 2rem 0 rgba(0, 0, 0, 0.1);
-$shadow-lg: 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.09), 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.09);
+$shadow-mega: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 1px 10px 0 rgba(0, 0, 0, 0.09), 0 1px 10px 0 rgba(0, 0, 0, 0.09);
+$shadow-lg-hover: 0 4px 11px 0px rgba(0,0,0,.05), 0 4px 11px 0px rgba(0,0,0,.05);
+
 
 /* Sizes */
-$gutter: 2rem;
-$cell-h-padding: 2rem;
+$gutter: 20px;
+$cell-h-padding: 20px;
 
-$container-max: 120rem;
-$container-max-sm: 80rem;
+$region-pad-sm: 60px;
+$region-pad-lg: 80px;
 
-$heading-space: 4rem;
+$heading-space: 40px;
 $third: 33.333%;
 
-$max-width: 100rem;
-$break-md: 38em;
-$break-lg: 54rem;
+$max-width: 1000px;
+$break-sm: 460px;
+$break-md: 600px;
+$break-lg: 860px;
+
+$container-max: 1200px;
+$container-max-sm: 800px;
+
+$transition-3: 300ms;
 
 /* Fonts */
 $font-main: 'Open Sans', sans-serif;
@@ -38,4 +46,4 @@ $font-2-extrabold: 800;
 $line-height: 1.8;
 $line-height-sm: 1.6;
 
-
+$small-text: 1.4rem;

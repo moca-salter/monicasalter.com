@@ -32,3 +32,8 @@
     @mixin-content;
   }
 }
+
+@define-mixin text-sm-bold {
+  font-size: $small-text;
+  font-weight: $font-main-semibold;
+}

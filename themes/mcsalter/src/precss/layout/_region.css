@@ -1,10 +1,24 @@
 .region {
   background-color: #fff;
-  padding: 7rem 0;
+  padding: $region-pad-sm 0;
 }
 
-.region--more-space {
-    padding: 7rem 0 15rem;
+.region--bottom-lg {
+    padding: $region-pad-sm 0 150px;
+}
+
+.region--crane {
+    padding: 90px 0 30px;
+    position: relative;
+    &:after {
+        @mixin pseudo-absolute;
+        @mixin centerer-x;
+        top: 100%; 
+        width: 90%;
+        height: 1px;
+        background: $stone;
+        max-width: $max-width;
+    }
 }
 
 .region--pattern {
@@ -13,10 +27,14 @@
 
 @media (min-width: $break-md) {
     .region {
-        padding: 12.5rem 0;
+        padding: $region-pad-lg 0;
     }
 
-    .region--more-space {
-        padding: 12.5rem 0 17rem;
+    .region--crane {
+        padding: 120px 0 40px;
+    }
+
+    .region--bottom-lg {
+        padding: $region-pad-lg 0 170px;
     }
 }

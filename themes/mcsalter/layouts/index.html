@@ -1,10 +1,12 @@
 {{ partial "header.html" . }}
 	<main role="main">
-        <section class="region">
+        <!-- <h1>Monica Salter - Frontend Developer</h1> -->
+        <section class="region region--crane">
             <div class="container">
                 <div class="flex-grid flex-grid--unequal lg-flex-grid--fit">
-                     <div class="flex-grid-cell">
-                        <svg version="1.1" id="crane" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="415px" viewBox="0 0 415 282" preserveAspectRatio="xMinYMin meet">
+                     <div class="flex-grid-cell crane-wrapper">
+                        <svg version="1.1" id="crane" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="415px" viewBox="0 0 415 282" preserveAspectRatio="xMinYMin meet" aria-labelledby="craneTitle">
+                            <title id="craneTitle">Origami crane with a code background image</title>
                             <style type="text/css">
                                 .st0{fill:#000000;}
                                 .st1{fill:#FFFFFF;}
@@ -161,72 +163,80 @@
                         </svg>
                      </div>
                      <div class="flex-grid-cell lg-flex-cell--2x child-margin-clear">
-                         <p class="p-small-space text-bigger">Hello! My name is Monica and I’m a frontend developer.</p>
-                         <p class="p-small-space text-gray">I build websites with precision and creativity.</p>
+                         <h2 class="crane-title">Building websites with precision <br>and creativity.</h2>
+                         <p class="p-small-space text-gray">My name is Monica and I am a frontend developer.</p>
                      </div>
                  </div> 
             </div>
         </section>
         <section class="region">
             <div class="container container--sm">
-                <h2 class="main-heading">Featured Work</h2>
-                <p class="p-extra-space">As an employee of Gravity Works Design + Development, I’ve had the privilage to work as the primary frontend developer on these awesome projects.</p>
+                <h2 id="work" class="main-heading">Featured Work</h2>
+                <p class="p-extra-space">As an employee of Gravity Works Design + Development, I’ve had the privilage to work on these awesome projects as the primary frontend developer.</p>
             </div>
             <div class="container">
                 <div class="flex-grid lg-flex-grid--fit">
                     <div class="flex-grid-cell">
-                        <div class="color-card">
+                        <a href="http://lifewayscmh.org/" target="_blank" class="color-card">
                             <div class="color-card_title">
-                                <h2 class="color-card_title-text">Cell 1</h2>
+                                <h2 class="color-card_title-text">Lifeways</h2>
                             </div>
                             <div class="color-card_text">
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                                A Mental health service and resource site built in DNN (DotNetNuke).
                             </div>
                             <div class="color-card_actions">
-                                <a class="button js-button-ripple">button</a>
+                                <span class="faux-button">lifewayscmh.org</span>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="flex-grid-cell">
-                        <div class="color-card">
+                        <a href="http://raind.msu.edu/" target="_blank" class="color-card">
                             <div class="color-card_title">
-                                <h2 class="color-card_title-text">Cell 2</h2>
+                                <h2 class="color-card_title-text">RAIND</h2>
                             </div>
-                            <div class="color-card_text"></div>
+                            <div class="color-card_text">
+                                <p>A WCAG 2.0 AAA compliant Drupal site for Michigan Sate University's Autism Research.</p>
+                            </div>
                             <div class="color-card_actions">
-                                <a class="button js-button-ripple">button</a>
+                                <span class="faux-button">raind.msu.edu</span>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="flex-grid-cell">
-                        <div class="color-card">
+                        <a href="https://biomilab.com/" target="_blank" class="color-card">
                             <div class="color-card_title">
-                                <h2 class="color-card_title-text">Cell 3</h2>
+                                <h2 class="color-card_title-text">Biomilab</h2>
                             </div>
-                            <div class="color-card_text"></div>
+                            <div class="color-card_text">
+                                A static site for bioscience research that incorporates lots of angles, patterns, and svg shapes!
+                            </div>
                             <div class="color-card_actions">
-                                <a class="button js-button-ripple">button</a>
+                                <span class="faux-button">biomilab.com</span>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
         <section class="region region--pattern">
             <div class="container container--sm">
-                <h2 class="main-heading">About</h2>
-                <p>I strive to create websites that clients can maintain easily, users can understand quickly, and developers can modify seamlessly. My greatest strength is in writing <strong>modular, maintainable CSS</strong>, and I love a well organized <strong>pattern library</strong>. I am not currently considering request for freelance projects.</p>
-                <p>When I’m not working on websites I do a lot of reading! Scifi books, business books, comics, I’m not picky. I also like to meet new people, drink tea, and spend time outdoors.</p>
+                <h2 id="about" class="main-heading">About</h2>
+
+                <p>I strive to create websites that clients can maintain easily, users can understand quickly, and developers can modify seamlessly. My greatest strength is in writing <strong>modular, maintainable CSS</strong>, and I love a well organized <strong>pattern library</strong>.</p>
+                    
+                </p>When I’m not working on websites I do a lot of reading! Scifi books, business books, comics, I’m not picky. I also like to meet new people, drink tea, and spend time outdoors.</p>
+
                 <h3>Contact</h3>
-                <p>You can email <a href="#">me[at]monicasalter.com</a> and find me on <a href="https://twitter.com/mocasalter">Twitter</a>.</p>
+                <p>As of July 2017 I am located in <strong>Seattle</strong>!</p>
+                <p>If you'd like to get in touch, you can email <a href="#">hello[at]monicasalter.com</a> or find me on <a href="https://twitter.com/mocasalter" target="_blank">Twitter</a> and <a href="https://github.com/mocasalter" target="_blank">Github</a>.</p>
                 <div class="margin-top-lg text-center">
                     <img src="{{ .Site.BaseURL }}images/profile-pic.png" alt="Photo of Monica">
                 </div>
             </div>
         </section>
-		<section class="region region--more-space">
+		<section class="region region--bottom-lg">
             <div class="container container--sm">
-                <h2 class="main-heading">Blog</h2>
+                <h2 id="blog" class="main-heading">Blog</h2>
                 <div class="divider-crane">
                     <img src="{{ .Site.BaseURL }}images/tiny-crane.svg" alt="">
                 </div>

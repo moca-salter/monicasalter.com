@@ -7,7 +7,7 @@
     "postcss": "postcss --use postcss-easy-import --use postcss-mixins --use postcss-nested --use postcss-simple-vars --use postcss-conditionals --use postcss-color-hexa --use postcss-mathjs --use postcss-extend --use postcss-gradientfixer --use autoprefixer --use css-mqpacker --config css-options.json --output static/css/style.css src/precss/style.css",
     "cleancss": "cleancss --output static/css/style.css static/css/style.css",
     "build:css": "npm run postcss && npm run cleancss",
-    "build:js": "uglifyjs --output static/js/script.js src/js/script.js --compress --mangle --lint --screw-ie8",
+    "build:js": "uglifyjs --output static/js/scripts.js src/js/script.js src/js/smooth-scroll.js --compress --mangle --lint --screw-ie8",
     "build:images": "imagemin src/images/* static/images",
     "build": "npm run clean && npm run build:css && npm run build:js && npm run build:images",
     "watch:css": "watch 'npm run build:css' src/precss",

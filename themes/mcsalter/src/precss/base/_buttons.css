@@ -1,11 +1,10 @@
 .button {
+    @mixin text-sm-bold;
     position: relative;
     display: inline-block;
-    font-size: 1.4rem;
-    padding: 0.5rem 2rem;
+    padding: 5px 20px;
     border: none;
     outline: none;
-    font-weight: bold;
     cursor: pointer;
     overflow: hidden;
     user-select: none;
@@ -22,6 +21,7 @@
     transform: scale(0);
     pointer-events: none;
 }
+
 .ripple.show {
     animation: ripple 0.3s ease-in;
 }
