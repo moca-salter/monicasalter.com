@@ -15,15 +15,7 @@ strong {
     }
 }
 
-.text-gray {
-    color: $gray;
-}
-
 .p-extra-space {
     margin: 50px auto;
-}
-
-.p-small-space {
-    margin: 10px auto;
 }
 

@@ -1,7 +1,6 @@
 .container {
     @mixin float-clear;
     position: relative;
-    /* width: 100%; */
     max-width: $max-width;
     margin: 0 auto;
     padding: 0 $gutter;
@@ -15,14 +14,8 @@
     max-width: $container-max-sm;
 }
 
-/* @media (min-width: 400px) {
-    .container {
-        width: 85%;
-        padding: 0;
-    }
-} */
-
 @media (min-width: $break-md) {
+
     .container {
         width: 80%;
         padding: 0;
@@ -35,4 +28,5 @@
     .container--sm {
         width: 75%;
     }
+
 }

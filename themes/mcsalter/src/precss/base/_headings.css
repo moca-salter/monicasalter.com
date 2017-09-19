@@ -26,9 +26,13 @@ h3 {
 }
 
 .main-heading {
-  font-size: 4.2rem;
+  font-size: 3.5rem;
   font-weight: $font-2-extrabold;
   text-align: center;
+
+  @mixin mq $break-md {
+    font-size: 4.2rem;
+  }
 }
 
 .divider-crane {

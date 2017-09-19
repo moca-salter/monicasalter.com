@@ -7,7 +7,6 @@
 }
 
 a.color-card {
-    /* display: block; */
     transition: transform $transition-3, box-shadow $transition-3;
     text-decoration: none;
     color: #000;

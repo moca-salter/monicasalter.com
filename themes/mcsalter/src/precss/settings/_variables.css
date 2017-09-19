@@ -25,10 +25,11 @@ $region-pad-lg: 80px;
 $heading-space: 40px;
 $third: 33.333%;
 
-$max-width: 1000px;
-$break-sm: 460px;
-$break-md: 600px;
-$break-lg: 860px;
+$max-width:   1000px;
+$break-sm:    460px;
+$break-md:    600px;
+$break-crane: 640px;
+$break-lg:    860px;
 
 $container-max: 1200px;
 $container-max-sm: 800px;
@@ -45,5 +46,6 @@ $font-2-extrabold: 800;
 
 $line-height: 1.8;
 $line-height-sm: 1.6;
+$line-height-xs: 1.4;
 
 $small-text: 1.4rem;
