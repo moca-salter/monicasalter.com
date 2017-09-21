@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Seattle Frontend Developer - Monica Salter"
 theme = "mcsalter"
+publishDir = "docs"
 
 [Params]
     Author = "Monica Salter"
