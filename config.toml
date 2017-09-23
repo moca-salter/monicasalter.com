@@ -1,4 +1,4 @@
-baseURL = "monicasalter.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Seattle Frontend Developer - Monica Salter"
 theme = "mcsalter"
