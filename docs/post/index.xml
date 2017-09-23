@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Seattle Frontend Developer - Monica Salter</title>
-    <link>http://example.org/post/</link>
+    <link>monicasalter.com/post/</link>
     <description>Recent content in Posts on Seattle Frontend Developer - Monica Salter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 May 2017 22:17:41 -0400</lastBuildDate>
     
-	<atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="monicasalter.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>welcome</title>
-      <link>http://example.org/post/welcome/</link>
+      <link>monicasalter.com/post/welcome/</link>
       <pubDate>Fri, 05 May 2017 22:17:41 -0400</pubDate>
       
-      <guid>http://example.org/post/welcome/</guid>
+      <guid>monicasalter.com/post/welcome/</guid>
       <description>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</description>
     </item>
     
