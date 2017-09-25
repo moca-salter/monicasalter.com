@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Seattle Frontend Developer - Monica Salter"
 theme = "mcsalter"
 publishDir = "docs"
+disableKinds = ["sitemap", "taxonomy", "taxonomyTerm"]
 
 [Params]
     Author = "Monica Salter"
