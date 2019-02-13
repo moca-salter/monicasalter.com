@@ -10,6 +10,13 @@
             flex: 1;
         }
     }
+
+    .lg-flex-grid--center {
+        justify-content: center;
+        > .flex-grid-cell {
+            flex: 0 1 auto
+        }
+    }
     
     .flex-grid {
         > .lg-flex-cell--2x {

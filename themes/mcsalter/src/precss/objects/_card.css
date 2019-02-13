@@ -1,12 +1,12 @@
-.color-card {
+.card {
+    max-width: 350px;
     width: 100%;
     box-shadow: $shadow-lg;
     background: #fff;
-    max-width: 450px;
     margin: 0 auto;
 }
 
-a.color-card {
+a.card {
     transition: transform $transition-3, box-shadow $transition-3;
     text-decoration: none;
     color: #000;
@@ -17,26 +17,26 @@ a.color-card {
     }
 }
 
-.color-card_title {
-    background: $blue-gradient-soft;
+.card_title {
+    background: $gray;
     padding: 14px $cell-h-padding;
     display: flex;
     align-items: flex-end;
-    height: 42px;
+    height: 21px;
 }
 
-.color-card_title-text {
+.card_title-text {
     margin: 0;
     flex: 1 1 auto;
     font-weight: 400;
     font-family: $font-main;
-    font-size: 2.4rem;
     color: #fff;
+    font-size: 1.9rem;
 }
 
-.color-card_text {
+.card_text {
     padding: 30px $cell-h-padding;
-    height: 100px;
+    height: 75px;
     font-size: 1.4rem;
     line-height: $line-height-sm;
     p {
@@ -44,8 +44,7 @@ a.color-card {
     }
 }
 
-.color-card_actions {
+.card_actions {
     border-top: 1px solid $feather;
     padding: 16px $cell-h-padding;
 }
-

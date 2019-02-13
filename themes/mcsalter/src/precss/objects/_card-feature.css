@@ -1,0 +1,23 @@
+.card--feature {
+    max-width: 450px;
+
+    .card_title {
+        background: $blue-gradient-soft; 
+        padding: 14px $cell-h-padding;
+        height: 42px;
+    }
+
+    .card_title-text {
+        font-size: 2.4rem;
+    }
+
+    .card_text { 
+        height: 100px;
+    }
+
+    .card_actions {
+        border-top: 1px solid $feather;
+        padding: 16px $cell-h-padding;
+    }
+
+}
