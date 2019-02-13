@@ -23,6 +23,7 @@
 
 .region--pattern {
     background: url(../images/pattern-bg.png) lightgray;
+    background-attachment: fixed;
 }
 
 @media (min-width: $break-md) {
